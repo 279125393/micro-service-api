@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.*;
 public class UserController extends BaseController {
 
     @ApiOperation("get test")
+    @GetMapping("/{name}")
     public String sayHello(@PathVariable("name")String name){
         log.info("name is {}",name);
         return "hello, " + name;
