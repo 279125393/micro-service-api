@@ -1,5 +1,5 @@
 # micro-service-api
-springboot2.0脚手架
+springboot2.0脚手架</br>
 1.hibernate-validation请求参数验证
 2.AOP切面日志，记录请求参数
 3.Token拦截器（针对登录）
